@@ -28,6 +28,7 @@ Quantity: Quantity of the product ordered.
 Discount: Discount applied to the product.
 Profit: Profit amount for the product.
 Profit Loss: Indicates profit or loss for the product.
+
 Objectives
  Visualization
 Create visualizations to represent key insights. Use charts, graphs, and plots to present a clear and concise overview of the data.
