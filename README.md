@@ -1,30 +1,40 @@
 Super Store Dataset
-Overview
-This repository contains a dataset from a fictional Super Store, which includes information about orders, customers, and products. The dataset is in tabular format and is provided in a CSV file. It consists of 9194 rows and 22 columns.
+Introduction
+Welcome to the Super Store Dataset repository! This dataset contains information about orders, customers, and products from a fictional Super Store. With 9194 rows and 22 columns, this tabular dataset is a valuable resource for data analysis and exploration. This README provides an overview of the dataset, its features, and the objectives behind its creation. This dataset is available in open source "kaggle" so any one use this data for their practice.
 
-Columns
-Order ID: Unique identifier for each order (non-null, object).
-Order Date: Date when the order was placed (non-null, object).
-Ship Date: Date when the order was shipped (non-null, object).
-Month: Month of the order (non-null, object).
-Year: Year of the order (non-null, int64).
-Ship Mode: Shipping mode for the order (non-null, object).
-Customer ID: Unique identifier for each customer (non-null, object).
-Customer Name: Name of the customer (non-null, object).
-Segment: Market segment to which the customer belongs (non-null, object).
-Country: Country where the order was placed (non-null, object).
-City: City where the order was placed (non-null, object).
-State: State where the order was placed (non-null, object).
-Postal Code: Postal code of the location (non-null, int64).
-Region: Geographical region of the order (non-null, object).
-Product ID: Unique identifier for each product (non-null, object).
-Category: Category of the product (non-null, object).
-Sub-Category: Sub-category of the product (non-null, object).
-Product Name: Name of the product (non-null, object).
-Sales: Sales amount for the product (non-null, float64).
-Quantity: Quantity of the product ordered (non-null, int64).
-Discount: Discount applied to the product (non-null, object).
-Profit: Profit amount for the product (non-null, float64).
-Profit Loss: Indicates profit or loss for the product (non-null, object).
-Usage
-You can use this dataset for various data analysis and visualization tasks. Explore the relationships between different columns, analyze sales trends, and identify factors affecting profitability.
+Features of the Data
+The dataset includes the following columns:
+
+Order ID: Unique identifier for each order.
+Order Date: Date when the order was placed.
+Ship Date: Date when the order was shipped.
+Month: Month of the order.
+Year: Year of the order.
+Ship Mode: Shipping mode for the order.
+Customer ID: Unique identifier for each customer.
+Customer Name: Name of the customer.
+Segment: Market segment to which the customer belongs.
+Country: Country where the order was placed.
+City: City where the order was placed.
+State: State where the order was placed.
+Postal Code: Postal code of the location.
+Region: Geographical region of the order.
+Product ID: Unique identifier for each product.
+Category: Category of the product.
+Sub-Category: Sub-category of the product.
+Product Name: Name of the product.
+Sales: Sales amount for the product.
+Quantity: Quantity of the product ordered.
+Discount: Discount applied to the product.
+Profit: Profit amount for the product.
+Profit Loss: Indicates profit or loss for the product.
+Objectives
+ Visualization
+Create visualizations to represent key insights. Use charts, graphs, and plots to present a clear and concise overview of the data.
+i am using a clean dataset in this project beacause my objectives is to practice data visualization by using python different libraries. 
+
+ Educational Use
+This dataset is intended for educational purposes. It provides a practical example for students and data enthusiasts to practice data analysis, manipulation, and visualization techniques.
+
+ Community Contribution
+Feel free to contribute to the repository by sharing your analyses, insights, or additional features. Reporting issues and suggesting improvements are also welcome.
